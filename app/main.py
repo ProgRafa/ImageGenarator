@@ -82,6 +82,9 @@ cv2.drawContours(image, [np.array(rotate(translate(rectangle, 40, 3), 15))], 0, 
 cv2.drawContours(image, [np.array(rotate(translate(triangle, 48, 0), 21))], 0, border_color, border_px)
 cv2.drawContours(image, [np.array(rotate(translate(rectangle, 48, 6), 21))], 0, border_color, border_px)
 
+cv2.drawContours(image, [np.array(rotate(translate(triangle, 68, 12), 28))], 0, border_color, border_px)
+cv2.drawContours(image, [np.array(rotate(translate(rectangle, 54, 12), 36))], 0, border_color, border_px)
+
 # Displaying the image
 cv2.imshow(window_name, image)
 cv2.waitKey(0)
